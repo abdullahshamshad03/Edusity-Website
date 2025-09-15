@@ -1,0 +1,30 @@
+    .campus{
+        margin: 80px auto ;
+        width: 90%;
+        text-align: center;
+    }
+
+    .gallery{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+
+    }
+
+    .gallery img{
+        border-radius: 10px;
+        width: 23% ;
+    }
+
+    @media (max-width:650px){
+        .gallery{
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .gallery img{
+            width: 48%;
+            margin-bottom: 20px;
+        }
+    }
