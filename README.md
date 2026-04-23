@@ -53,7 +53,7 @@ Edusity-Website/
 
 ```bash
 # Clone the repository
-git clone <your-repo-link>
+git clone https://github.com/abdullahshamshad03/Edusity-Website.git
 
 # Navigate into project folder
 cd Edusity-Website
